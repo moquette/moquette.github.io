@@ -1,1 +1,1 @@
-var a = "a";
+var a = 21; // lot of space
