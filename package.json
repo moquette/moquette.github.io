@@ -39,8 +39,8 @@
       "git add"
     ],
     ".js|jsx": [
-      "npm run lint:fix",
-      "npm run lint"
+      "yarn run lint:fix",
+      "yarn run lint"
     ]
   },
   "eslintConfig": {
