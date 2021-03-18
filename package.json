@@ -34,11 +34,11 @@
     }
   },
   "lint-staged": {
-    "*.(js|html|css)": [
+    "*.(js|jsx|html|scss|css)": [
       "prettier --write",
       "git add"
     ],
-    ".js": [
+    ".js|jsx": [
       "npm run lint:fix",
       "npm run lint"
     ]
